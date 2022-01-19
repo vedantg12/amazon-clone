@@ -21,3 +21,12 @@ Run commands
 2) ```yarn install```
 
 3) ```yarn run dev```
+
+This will run the app on localhost: 3000.
+
+Also to make the use of stripe run this command on another terminal: 
+
+```stripe listen --forward-to localhost:3000/api/webhook```
+
+
+
